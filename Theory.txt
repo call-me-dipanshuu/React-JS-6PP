@@ -1,0 +1,113 @@
+*Not Done[7,12,13]
+#1 React JS INTRO
+Framework we don't have to install other packages but with library we have to install other packages
+
+We don't have to reload for moving to other pages
+Resuablity of code
+npx onetime
+Additional feature like react hook enhanced the functionality in functional component
+
+#2 JSX & Props In React Js
+
+#3 Component & Styling in ReactJS
+
+#4 Form & UseState in ReactJS
+UseState is used for reflecting changes made
+To change data in real time
+Some react Hooks are useState and useEffect
+useEffect or hooks should be in component and before return
+
+useEffect(() => {
+    console.log("Run");
+  }, [a,b,c]);
+when ever the value in square bracket get changed then useEffect will get called
+whenever value of a,b,c get changed then useEffect is called
+when changes will be made rendering will be done
+
+#5 Daily Goals Project In ReactJS
+13:42
+
+//19:09
+
+#6
+Routing in React Router DOM V6 JS
+
+#7
+NETFLIX CLONE PROJECT
+
+#8
+React Hooks
+const [a,setA]=useState(0);
+setA is a function whereas a is a value
+useEffect will run when component will be mounted and secondly when changes will be made
+Two times rendering at initial because of React Strict mode
+
+  useEffect(() => {
+    console.log("showing effect");
+return ()=>{
+}
+  }, [a]);
+
+return will executed when component is demounted or started
+
+useContext
+
+<APP/> --> <Home/>---><ROW/>--><Card/>
+
+was a long process
+we can pass the data in such  a manner in app component so that we can access the card component without going to the mediatory component
+
+#9 Chat App Project With Firebase & Chakra UI
+*Firebase is replacement of backend
+Chakra UI is based on Tailwind CSS
+
+08:52
+//27:04
+
+//35:19
+
+#10
+Class Based Component
+Stateless components are functional component
+
+For receiving the value in class based component we have constructor
+state is created with help of constructor itself
+
+With class based component it is not necessary to have class component only we can use functional based component too
+
+//16:40
+
+#11 React LifeCycle Methods
+
+//componentWillMount*Removed after react 17*called before rendering
+//componentDidMount-->it will be called after rendering--
+shouldComponentUpdate-->
+componentDidUpdate-->when there will be re-rendering shouldComponentUpdate is called
+componentWillUnmount -->called before component will unmount
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
